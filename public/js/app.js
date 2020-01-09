@@ -37729,6 +37729,505 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Modals.vue?vue&type=template&id=256ae691&":
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Modals.vue?vue&type=template&id=256ae691& ***!
+  \*********************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c(
+        "div",
+        {
+          staticClass: "portfolio-modal modal fade",
+          attrs: {
+            id: "portfolioModal1",
+            tabindex: "-1",
+            role: "dialog",
+            "aria-hidden": "true"
+          }
+        },
+        [
+          _c("div", { staticClass: "modal-dialog" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "close-modal",
+                  attrs: { "data-dismiss": "modal" }
+                },
+                [
+                  _c("div", { staticClass: "lr" }, [
+                    _c("div", { staticClass: "rl" })
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-lg-8 mx-auto" }, [
+                    _c("div", { staticClass: "modal-body" }, [
+                      _c("h2", { staticClass: "text-uppercase" }, [
+                        _vm._v("Project Name")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "item-intro text-muted" }, [
+                        _vm._v("Lorem ipsum dolor sit amet consectetur.")
+                      ]),
+                      _vm._v(" "),
+                      _c("img", {
+                        staticClass: "img-fluid d-block mx-auto",
+                        attrs: { src: "img/portfolio/01-full.jpg", alt: "" }
+                      }),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("ul", { staticClass: "list-inline" }, [
+                        _c("li", [_vm._v("Date: January 2017")]),
+                        _vm._v(" "),
+                        _c("li", [_vm._v("Client: Threads")]),
+                        _vm._v(" "),
+                        _c("li", [_vm._v("Category: Illustration")])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-primary",
+                          attrs: { "data-dismiss": "modal", type: "button" }
+                        },
+                        [
+                          _c("i", { staticClass: "fas fa-times" }),
+                          _vm._v("\n                  Close Project")
+                        ]
+                      )
+                    ])
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "portfolio-modal modal fade",
+          attrs: {
+            id: "portfolioModal2",
+            tabindex: "-1",
+            role: "dialog",
+            "aria-hidden": "true"
+          }
+        },
+        [
+          _c("div", { staticClass: "modal-dialog" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "close-modal",
+                  attrs: { "data-dismiss": "modal" }
+                },
+                [
+                  _c("div", { staticClass: "lr" }, [
+                    _c("div", { staticClass: "rl" })
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-lg-8 mx-auto" }, [
+                    _c("div", { staticClass: "modal-body" }, [
+                      _c("h2", { staticClass: "text-uppercase" }, [
+                        _vm._v("Project Name")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "item-intro text-muted" }, [
+                        _vm._v("Lorem ipsum dolor sit amet consectetur.")
+                      ]),
+                      _vm._v(" "),
+                      _c("img", {
+                        staticClass: "img-fluid d-block mx-auto",
+                        attrs: { src: "img/portfolio/02-full.jpg", alt: "" }
+                      }),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("ul", { staticClass: "list-inline" }, [
+                        _c("li", [_vm._v("Date: January 2017")]),
+                        _vm._v(" "),
+                        _c("li", [_vm._v("Client: Explore")]),
+                        _vm._v(" "),
+                        _c("li", [_vm._v("Category: Graphic Design")])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-primary",
+                          attrs: { "data-dismiss": "modal", type: "button" }
+                        },
+                        [
+                          _c("i", { staticClass: "fas fa-times" }),
+                          _vm._v("\n                  Close Project")
+                        ]
+                      )
+                    ])
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "portfolio-modal modal fade",
+          attrs: {
+            id: "portfolioModal3",
+            tabindex: "-1",
+            role: "dialog",
+            "aria-hidden": "true"
+          }
+        },
+        [
+          _c("div", { staticClass: "modal-dialog" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "close-modal",
+                  attrs: { "data-dismiss": "modal" }
+                },
+                [
+                  _c("div", { staticClass: "lr" }, [
+                    _c("div", { staticClass: "rl" })
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-lg-8 mx-auto" }, [
+                    _c("div", { staticClass: "modal-body" }, [
+                      _c("h2", { staticClass: "text-uppercase" }, [
+                        _vm._v("Project Name")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "item-intro text-muted" }, [
+                        _vm._v("Lorem ipsum dolor sit amet consectetur.")
+                      ]),
+                      _vm._v(" "),
+                      _c("img", {
+                        staticClass: "img-fluid d-block mx-auto",
+                        attrs: { src: "img/portfolio/03-full.jpg", alt: "" }
+                      }),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("ul", { staticClass: "list-inline" }, [
+                        _c("li", [_vm._v("Date: January 2017")]),
+                        _vm._v(" "),
+                        _c("li", [_vm._v("Client: Finish")]),
+                        _vm._v(" "),
+                        _c("li", [_vm._v("Category: Identity")])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-primary",
+                          attrs: { "data-dismiss": "modal", type: "button" }
+                        },
+                        [
+                          _c("i", { staticClass: "fas fa-times" }),
+                          _vm._v("\n                  Close Project")
+                        ]
+                      )
+                    ])
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "portfolio-modal modal fade",
+          attrs: {
+            id: "portfolioModal4",
+            tabindex: "-1",
+            role: "dialog",
+            "aria-hidden": "true"
+          }
+        },
+        [
+          _c("div", { staticClass: "modal-dialog" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "close-modal",
+                  attrs: { "data-dismiss": "modal" }
+                },
+                [
+                  _c("div", { staticClass: "lr" }, [
+                    _c("div", { staticClass: "rl" })
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-lg-8 mx-auto" }, [
+                    _c("div", { staticClass: "modal-body" }, [
+                      _c("h2", { staticClass: "text-uppercase" }, [
+                        _vm._v("Project Name")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "item-intro text-muted" }, [
+                        _vm._v("Lorem ipsum dolor sit amet consectetur.")
+                      ]),
+                      _vm._v(" "),
+                      _c("img", {
+                        staticClass: "img-fluid d-block mx-auto",
+                        attrs: { src: "img/portfolio/04-full.jpg", alt: "" }
+                      }),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("ul", { staticClass: "list-inline" }, [
+                        _c("li", [_vm._v("Date: January 2017")]),
+                        _vm._v(" "),
+                        _c("li", [_vm._v("Client: Lines")]),
+                        _vm._v(" "),
+                        _c("li", [_vm._v("Category: Branding")])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-primary",
+                          attrs: { "data-dismiss": "modal", type: "button" }
+                        },
+                        [
+                          _c("i", { staticClass: "fas fa-times" }),
+                          _vm._v("\n                  Close Project")
+                        ]
+                      )
+                    ])
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "portfolio-modal modal fade",
+          attrs: {
+            id: "portfolioModal5",
+            tabindex: "-1",
+            role: "dialog",
+            "aria-hidden": "true"
+          }
+        },
+        [
+          _c("div", { staticClass: "modal-dialog" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "close-modal",
+                  attrs: { "data-dismiss": "modal" }
+                },
+                [
+                  _c("div", { staticClass: "lr" }, [
+                    _c("div", { staticClass: "rl" })
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-lg-8 mx-auto" }, [
+                    _c("div", { staticClass: "modal-body" }, [
+                      _c("h2", { staticClass: "text-uppercase" }, [
+                        _vm._v("Project Name")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "item-intro text-muted" }, [
+                        _vm._v("Lorem ipsum dolor sit amet consectetur.")
+                      ]),
+                      _vm._v(" "),
+                      _c("img", {
+                        staticClass: "img-fluid d-block mx-auto",
+                        attrs: { src: "img/portfolio/05-full.jpg", alt: "" }
+                      }),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("ul", { staticClass: "list-inline" }, [
+                        _c("li", [_vm._v("Date: January 2017")]),
+                        _vm._v(" "),
+                        _c("li", [_vm._v("Client: Southwest")]),
+                        _vm._v(" "),
+                        _c("li", [_vm._v("Category: Website Design")])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-primary",
+                          attrs: { "data-dismiss": "modal", type: "button" }
+                        },
+                        [
+                          _c("i", { staticClass: "fas fa-times" }),
+                          _vm._v("\n                  Close Project")
+                        ]
+                      )
+                    ])
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "portfolio-modal modal fade",
+          attrs: {
+            id: "portfolioModal6",
+            tabindex: "-1",
+            role: "dialog",
+            "aria-hidden": "true"
+          }
+        },
+        [
+          _c("div", { staticClass: "modal-dialog" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "close-modal",
+                  attrs: { "data-dismiss": "modal" }
+                },
+                [
+                  _c("div", { staticClass: "lr" }, [
+                    _c("div", { staticClass: "rl" })
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-lg-8 mx-auto" }, [
+                    _c("div", { staticClass: "modal-body" }, [
+                      _c("h2", { staticClass: "text-uppercase" }, [
+                        _vm._v("Project Name")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "item-intro text-muted" }, [
+                        _vm._v("Lorem ipsum dolor sit amet consectetur.")
+                      ]),
+                      _vm._v(" "),
+                      _c("img", {
+                        staticClass: "img-fluid d-block mx-auto",
+                        attrs: { src: "img/portfolio/06-full.jpg", alt: "" }
+                      }),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("ul", { staticClass: "list-inline" }, [
+                        _c("li", [_vm._v("Date: January 2017")]),
+                        _vm._v(" "),
+                        _c("li", [_vm._v("Client: Southwest")]),
+                        _vm._v(" "),
+                        _c("li", [_vm._v("Category: Website Design")])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-primary",
+                          attrs: { "data-dismiss": "modal", type: "button" }
+                        },
+                        [
+                          _c("i", { staticClass: "fas fa-times" }),
+                          _vm._v("\n                  Close Project")
+                        ]
+                      )
+                    ])
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]
+      )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Navbar.vue?vue&type=template&id=6dde423b&":
 /*!*********************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Navbar.vue?vue&type=template&id=6dde423b& ***!
@@ -38075,397 +38574,7 @@ var staticRenderFns = [
               ])
             ])
           ])
-        ]),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "portfolio-modal modal fade",
-            attrs: {
-              id: "portfolioModal1",
-              tabindex: "-1",
-              role: "dialog",
-              "aria-hidden": "true"
-            }
-          },
-          [
-            _c("div", { staticClass: "modal-dialog" }, [
-              _c("div", { staticClass: "modal-content" }, [
-                _c(
-                  "div",
-                  {
-                    staticClass: "close-modal",
-                    attrs: { "data-dismiss": "modal" }
-                  },
-                  [
-                    _c("div", { staticClass: "lr" }, [
-                      _c("div", { staticClass: "rl" })
-                    ])
-                  ]
-                ),
-                _vm._v(" "),
-                _c("div", { staticClass: "container" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-lg-8 mx-auto" }, [
-                      _c("div", { staticClass: "modal-body" }, [
-                        _c("h2", { staticClass: "text-uppercase" }, [
-                          _vm._v("Project Name")
-                        ]),
-                        _vm._v(" "),
-                        _c("p", { staticClass: "item-intro text-muted" }, [
-                          _vm._v("Lorem ipsum dolor sit amet consectetur.")
-                        ]),
-                        _vm._v(" "),
-                        _c("img", {
-                          staticClass: "img-fluid d-block mx-auto",
-                          attrs: { src: "img/portfolio/01-full.jpg", alt: "" }
-                        }),
-                        _vm._v(" "),
-                        _c("p", [
-                          _vm._v(
-                            "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("ul", { staticClass: "list-inline" }, [
-                          _c("li", [_vm._v("Date: January 2017")]),
-                          _vm._v(" "),
-                          _c("li", [_vm._v("Client: Threads")]),
-                          _vm._v(" "),
-                          _c("li", [_vm._v("Category: Illustration")])
-                        ]),
-                        _vm._v(" "),
-                        _c(
-                          "button",
-                          {
-                            staticClass: "btn btn-primary",
-                            attrs: { "data-dismiss": "modal", type: "button" }
-                          },
-                          [
-                            _c("i", { staticClass: "fas fa-times" }),
-                            _vm._v("\n                Close Project")
-                          ]
-                        )
-                      ])
-                    ])
-                  ])
-                ])
-              ])
-            ])
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "portfolio-modal modal fade",
-            attrs: {
-              id: "portfolioModal2",
-              tabindex: "-1",
-              role: "dialog",
-              "aria-hidden": "true"
-            }
-          },
-          [
-            _c("div", { staticClass: "modal-dialog" }, [
-              _c("div", { staticClass: "modal-content" }, [
-                _c(
-                  "div",
-                  {
-                    staticClass: "close-modal",
-                    attrs: { "data-dismiss": "modal" }
-                  },
-                  [
-                    _c("div", { staticClass: "lr" }, [
-                      _c("div", { staticClass: "rl" })
-                    ])
-                  ]
-                ),
-                _vm._v(" "),
-                _c("div", { staticClass: "container" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-lg-8 mx-auto" }, [
-                      _c("div", { staticClass: "modal-body" }, [
-                        _c("h2", { staticClass: "text-uppercase" }, [
-                          _vm._v("Project Name")
-                        ]),
-                        _vm._v(" "),
-                        _c("p", { staticClass: "item-intro text-muted" }, [
-                          _vm._v("Lorem ipsum dolor sit amet consectetur.")
-                        ]),
-                        _vm._v(" "),
-                        _c("img", {
-                          staticClass: "img-fluid d-block mx-auto",
-                          attrs: { src: "img/portfolio/02-full.jpg", alt: "" }
-                        }),
-                        _vm._v(" "),
-                        _c("p", [
-                          _vm._v(
-                            "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("ul", { staticClass: "list-inline" }, [
-                          _c("li", [_vm._v("Date: January 2017")]),
-                          _vm._v(" "),
-                          _c("li", [_vm._v("Client: Explore")]),
-                          _vm._v(" "),
-                          _c("li", [_vm._v("Category: Graphic Design")])
-                        ]),
-                        _vm._v(" "),
-                        _c(
-                          "button",
-                          {
-                            staticClass: "btn btn-primary",
-                            attrs: { "data-dismiss": "modal", type: "button" }
-                          },
-                          [
-                            _c("i", { staticClass: "fas fa-times" }),
-                            _vm._v("\n                Close Project")
-                          ]
-                        )
-                      ])
-                    ])
-                  ])
-                ])
-              ])
-            ])
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "portfolio-modal modal fade",
-            attrs: {
-              id: "portfolioModal3",
-              tabindex: "-1",
-              role: "dialog",
-              "aria-hidden": "true"
-            }
-          },
-          [
-            _c("div", { staticClass: "modal-dialog" }, [
-              _c("div", { staticClass: "modal-content" }, [
-                _c(
-                  "div",
-                  {
-                    staticClass: "close-modal",
-                    attrs: { "data-dismiss": "modal" }
-                  },
-                  [
-                    _c("div", { staticClass: "lr" }, [
-                      _c("div", { staticClass: "rl" })
-                    ])
-                  ]
-                ),
-                _vm._v(" "),
-                _c("div", { staticClass: "container" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-lg-8 mx-auto" }, [
-                      _c("div", { staticClass: "modal-body" }, [
-                        _c("h2", { staticClass: "text-uppercase" }, [
-                          _vm._v("Project Name")
-                        ]),
-                        _vm._v(" "),
-                        _c("p", { staticClass: "item-intro text-muted" }, [
-                          _vm._v("Lorem ipsum dolor sit amet consectetur.")
-                        ]),
-                        _vm._v(" "),
-                        _c("img", {
-                          staticClass: "img-fluid d-block mx-auto",
-                          attrs: { src: "img/portfolio/03-full.jpg", alt: "" }
-                        }),
-                        _vm._v(" "),
-                        _c("p", [
-                          _vm._v(
-                            "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("ul", { staticClass: "list-inline" }, [
-                          _c("li", [_vm._v("Date: January 2017")]),
-                          _vm._v(" "),
-                          _c("li", [_vm._v("Client: Finish")]),
-                          _vm._v(" "),
-                          _c("li", [_vm._v("Category: Identity")])
-                        ]),
-                        _vm._v(" "),
-                        _c(
-                          "button",
-                          {
-                            staticClass: "btn btn-primary",
-                            attrs: { "data-dismiss": "modal", type: "button" }
-                          },
-                          [
-                            _c("i", { staticClass: "fas fa-times" }),
-                            _vm._v("\n                Close Project")
-                          ]
-                        )
-                      ])
-                    ])
-                  ])
-                ])
-              ])
-            ])
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "portfolio-modal modal fade",
-            attrs: {
-              id: "portfolioModal4",
-              tabindex: "-1",
-              role: "dialog",
-              "aria-hidden": "true"
-            }
-          },
-          [
-            _c("div", { staticClass: "modal-dialog" }, [
-              _c("div", { staticClass: "modal-content" }, [
-                _c(
-                  "div",
-                  {
-                    staticClass: "close-modal",
-                    attrs: { "data-dismiss": "modal" }
-                  },
-                  [
-                    _c("div", { staticClass: "lr" }, [
-                      _c("div", { staticClass: "rl" })
-                    ])
-                  ]
-                ),
-                _vm._v(" "),
-                _c("div", { staticClass: "container" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-lg-8 mx-auto" }, [
-                      _c("div", { staticClass: "modal-body" }, [
-                        _c("h2", { staticClass: "text-uppercase" }, [
-                          _vm._v("Project Name")
-                        ]),
-                        _vm._v(" "),
-                        _c("p", { staticClass: "item-intro text-muted" }, [
-                          _vm._v("Lorem ipsum dolor sit amet consectetur.")
-                        ]),
-                        _vm._v(" "),
-                        _c("img", {
-                          staticClass: "img-fluid d-block mx-auto",
-                          attrs: { src: "img/portfolio/04-full.jpg", alt: "" }
-                        }),
-                        _vm._v(" "),
-                        _c("p", [
-                          _vm._v(
-                            "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("ul", { staticClass: "list-inline" }, [
-                          _c("li", [_vm._v("Date: January 2017")]),
-                          _vm._v(" "),
-                          _c("li", [_vm._v("Client: Lines")]),
-                          _vm._v(" "),
-                          _c("li", [_vm._v("Category: Branding")])
-                        ]),
-                        _vm._v(" "),
-                        _c(
-                          "button",
-                          {
-                            staticClass: "btn btn-primary",
-                            attrs: { "data-dismiss": "modal", type: "button" }
-                          },
-                          [
-                            _c("i", { staticClass: "fas fa-times" }),
-                            _vm._v("\n                Close Project")
-                          ]
-                        )
-                      ])
-                    ])
-                  ])
-                ])
-              ])
-            ])
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "portfolio-modal modal fade",
-            attrs: {
-              id: "portfolioModal5",
-              tabindex: "-1",
-              role: "dialog",
-              "aria-hidden": "true"
-            }
-          },
-          [
-            _c("div", { staticClass: "modal-dialog" }, [
-              _c("div", { staticClass: "modal-content" }, [
-                _c(
-                  "div",
-                  {
-                    staticClass: "close-modal",
-                    attrs: { "data-dismiss": "modal" }
-                  },
-                  [
-                    _c("div", { staticClass: "lr" }, [
-                      _c("div", { staticClass: "rl" })
-                    ])
-                  ]
-                ),
-                _vm._v(" "),
-                _c("div", { staticClass: "container" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-lg-8 mx-auto" }, [
-                      _c("div", { staticClass: "modal-body" }, [
-                        _c("h2", { staticClass: "text-uppercase" }, [
-                          _vm._v("Project Name")
-                        ]),
-                        _vm._v(" "),
-                        _c("p", { staticClass: "item-intro text-muted" }, [
-                          _vm._v("Lorem ipsum dolor sit amet consectetur.")
-                        ]),
-                        _vm._v(" "),
-                        _c("img", {
-                          staticClass: "img-fluid d-block mx-auto",
-                          attrs: { src: "img/portfolio/05-full.jpg", alt: "" }
-                        }),
-                        _vm._v(" "),
-                        _c("p", [
-                          _vm._v(
-                            "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("ul", { staticClass: "list-inline" }, [
-                          _c("li", [_vm._v("Date: January 2017")]),
-                          _vm._v(" "),
-                          _c("li", [_vm._v("Client: Southwest")]),
-                          _vm._v(" "),
-                          _c("li", [_vm._v("Category: Website Design")])
-                        ]),
-                        _vm._v(" "),
-                        _c(
-                          "button",
-                          {
-                            staticClass: "btn btn-primary",
-                            attrs: { "data-dismiss": "modal", type: "button" }
-                          },
-                          [
-                            _c("i", { staticClass: "fas fa-times" }),
-                            _vm._v("\n                Close Project")
-                          ]
-                        )
-                      ])
-                    ])
-                  ])
-                ])
-              ])
-            ])
-          ]
-        )
+        ])
       ]
     )
   }
@@ -50942,6 +51051,7 @@ Vue.component('navbar', __webpack_require__(/*! ./components/Navbar.vue */ "./re
 Vue.component('introduction', __webpack_require__(/*! ./components/Introduction.vue */ "./resources/js/components/Introduction.vue")["default"]);
 Vue.component('services', __webpack_require__(/*! ./components/Services.vue */ "./resources/js/components/Services.vue")["default"]);
 Vue.component('portfolio', __webpack_require__(/*! ./components/Portfolio.vue */ "./resources/js/components/Portfolio.vue")["default"]);
+Vue.component('modals', __webpack_require__(/*! ./components/Modals.vue */ "./resources/js/components/Modals.vue")["default"]);
 Vue.component('about', __webpack_require__(/*! ./components/About.vue */ "./resources/js/components/About.vue")["default"]);
 Vue.component('team', __webpack_require__(/*! ./components/Team.vue */ "./resources/js/components/Team.vue")["default"]);
 Vue.component('clients', __webpack_require__(/*! ./components/Clients.vue */ "./resources/js/components/Clients.vue")["default"]);
@@ -51264,6 +51374,59 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Introduction_vue_vue_type_template_id_1e3a2f05___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Introduction_vue_vue_type_template_id_1e3a2f05___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Modals.vue":
+/*!********************************************!*\
+  !*** ./resources/js/components/Modals.vue ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Modals_vue_vue_type_template_id_256ae691___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Modals.vue?vue&type=template&id=256ae691& */ "./resources/js/components/Modals.vue?vue&type=template&id=256ae691&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _Modals_vue_vue_type_template_id_256ae691___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Modals_vue_vue_type_template_id_256ae691___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Modals.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Modals.vue?vue&type=template&id=256ae691&":
+/*!***************************************************************************!*\
+  !*** ./resources/js/components/Modals.vue?vue&type=template&id=256ae691& ***!
+  \***************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Modals_vue_vue_type_template_id_256ae691___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Modals.vue?vue&type=template&id=256ae691& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Modals.vue?vue&type=template&id=256ae691&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Modals_vue_vue_type_template_id_256ae691___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Modals_vue_vue_type_template_id_256ae691___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

@@ -5,6 +5,7 @@
     <introduction></introduction>
     <services></services>
     <portfolio></portfolio>
+    <modals></modals>
     <about></about>
     <team></team>
     <clients></clients>

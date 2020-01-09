@@ -24,6 +24,7 @@ Vue.component('navbar', require('./components/Navbar.vue').default);
 Vue.component('introduction', require('./components/Introduction.vue').default);
 Vue.component('services', require('./components/Services.vue').default);
 Vue.component('portfolio', require('./components/Portfolio.vue').default);
+Vue.component('modals', require('./components/Modals.vue').default);
 Vue.component('about', require('./components/About.vue').default);
 Vue.component('team', require('./components/Team.vue').default);
 Vue.component('clients', require('./components/Clients.vue').default);
