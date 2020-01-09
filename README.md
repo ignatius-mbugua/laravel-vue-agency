@@ -1,6 +1,6 @@
 # Laravel+VueJS StartBootstrap Agency Theme
 
- [StartBootstrap Agency Theme](https://startbootstrap.com/template-overviews/agency/) converted to Vuejs
+ [StartBootstrap Agency Theme](https://startbootstrap.com/themes/agency/) converted to Vuejs
 
 ## Installation
 
