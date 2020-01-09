@@ -10,5 +10,5 @@
 - Run __php artisan key:generate__
 - Run __npm install__
 
-## Licence
+## License
 Code released under the MIT License
