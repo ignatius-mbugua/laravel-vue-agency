@@ -10,7 +10,7 @@
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <form id="contactForm" name="sentMessage" novalidate="novalidate">
+          <form id="contactForm" name="sentMessage">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">

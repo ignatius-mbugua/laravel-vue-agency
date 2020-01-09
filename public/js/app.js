@@ -37495,13 +37495,7 @@ var staticRenderFns = [
             _c("div", { staticClass: "col-lg-12" }, [
               _c(
                 "form",
-                {
-                  attrs: {
-                    id: "contactForm",
-                    name: "sentMessage",
-                    novalidate: "novalidate"
-                  }
-                },
+                { attrs: { id: "contactForm", name: "sentMessage" } },
                 [
                   _c("div", { staticClass: "row" }, [
                     _c("div", { staticClass: "col-md-6" }, [
